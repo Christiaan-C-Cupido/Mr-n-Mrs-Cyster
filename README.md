@@ -30,7 +30,7 @@ Built with usability and elegance in mind, the website helps the couple share th
 - 🔗 QR-code ready for easy guest access
 
 ##📁 Folder Structure
-- /assets        # Images, fonts, icons
+- /assets        # Images, Videos, Icons
 - /css           # Stylesheets
 - /js            # Countdown timer and scripts
 - index.html     # Main landing page
