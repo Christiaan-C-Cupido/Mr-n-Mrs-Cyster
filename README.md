@@ -22,12 +22,12 @@ Built with usability and elegance in mind, the website helps the couple share th
 - Responsive Design Principles
 
 ## 📋 Features
--⏳ Real-time countdown clock to the wedding date
--📍 Wedding venue & time details
--📅 Full itinerary of the day
--💕 Introduction to the couple’s entourage
--📱 Mobile-responsive design
--🔗 QR-code ready for easy guest access
+- ⏳ Real-time countdown clock to the wedding date
+- 📍 Wedding venue & time details
+- 📅 Full itinerary of the day
+- 💕 Introduction to the couple’s entourage
+- 📱 Mobile-responsive design
+- 🔗 QR-code ready for easy guest access
 
 ## 🧑‍💻 Author
 Christiaan C Cupido
