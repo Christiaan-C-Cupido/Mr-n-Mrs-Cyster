@@ -1,4 +1,4 @@
-## Project Title: H & F Wedding Day
+## Project Title: MR & MRS Cyster's Wedding Day
 A custom wedding website designed for a soon-to-be-married couple. Guests can access the site via a QR code on their invitations to view all the essential details about the big day in one beautiful and mobile-friendly space.
 
 ## 🎯 Project Description
