@@ -29,6 +29,6 @@ Built with usability and elegance in mind, the website helps the couple share th
 -📱 Mobile-responsive design
 -🔗 QR-code ready for easy guest access
 
-🧑‍💻 Author
+## 🧑‍💻 Author
 Christiaan C Cupido
 
