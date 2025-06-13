@@ -1,0 +1,61 @@
+/*=== GENERAL ===*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: #444;
+    color: white;
+    font-size: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+/*=== COUNTDOWN ===*/
+#countdown {
+    text-align: center;
+    font-family: 'Segoe UI',sans-serif;
+    padding: 2rem;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    font-size: 1,5rem;
+}
+
+.timer div {
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0,1);
+}
+
+.timer span {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #d45a8b;
+}
+
+/*=== HOME ===*/
+/*=== OUR STORY ===*/
+/*=== THE WEDDING ===*/
+/*=== ITINERARY ===*/
+/*=== WEDDING PARTY ===*/
+/*=== RSVP ===*/
