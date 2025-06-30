@@ -15,7 +15,7 @@ Built with usability and elegance in mind, the website helps the couple share th
 📷  https://christiaan-c-cupido.github.io/Mr-n-Mrs-Cyster/ 
 *(Add a screenshot or a hosted demo link if available)*
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
 - HTML5 & CSS3
 - JavaScript (Vanilla)
