@@ -5,6 +5,7 @@ body {
     font-size: 16px;
     background-color: #fff;
     color: #333;
+    
 }
 
 
@@ -82,6 +83,53 @@ nav ul li {
 }
 
 /*=== THE WEDDING ===*/
+
+
 /*=== ITINERARY ===*/
 /*=== WEDDING PARTY ===*/
 /*=== RSVP ===*/
+.btn-RSVP {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  border: 2px solid black;
+  font-family: 'Trirong', serif;
+  cursor: pointer;
+  text-align: center;
+  user-select: none;
+  margin: 10px;
+  width: 500px;
+}
+
+.btn-RSVP:hover {
+  background-color: #d0d6dc;
+}
+
+/*=== Footer ===*/
+.site-footer {
+    background-color: #222;
+    color: #fff;
+    padding: 1rem 0;
+    font-size: 0.875rem;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .footer-content {
+    max-width: 1200px;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .socials {
+    margin-top: 0.5rem;
+  }
+  .socials a {
+    color: #ccc;
+    margin: 0 0.5rem;
+    text-decoration: none;
+  }
+  .socials a:hover {
+    color: #fff;
+  }
