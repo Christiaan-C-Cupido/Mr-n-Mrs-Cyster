@@ -1,135 +1,144 @@
-/*=== GENERAL ===*/
+/* =====================================
+   GLOBAL STYLES
+===================================== */
 body {
-    margin: 0;
-    font-family: sans-serif;
-    font-size: 16px;
-    background-color: #fff;
-    color: #333;
-    
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+  background-color: #fff;
+  color: #333;
 }
 
-
+/* =====================================
+   NAVIGATION
+===================================== */
 nav ul li {
-    margin: 0 1rem;
+  margin: 0 1rem;
 }
 
-/*=== HOME ===*/
+/* =====================================
+   HOME SECTION
+===================================== */
+.home-section {
+  width: 100%;
+  height: 610px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #000;
+
+  background: 
+    linear-gradient(rgba(255, 255, 255, 1), rgba(0, 0, 0, 0)),
+    url('/assets/images/A-Girl-A-Style-_-Were-Married.jpg') center/cover no-repeat;
+}
 
 .text-content {
-    text-align: center;
-    color: rgb(0, 0, 0);  
-    border: 0;
+  text-align: center;
+  color: #000;
+  border: 0;
+}
+
+.text-content h5,
+.text-content h1,
+.text-content h2,
+.text-content h3,
+.text-content p {
+  margin: 10px 0;
+  font-weight: lighter;
 }
 
 .text-content h5 {
-    font-family: 'Allura', cursive;
-    font-size: 30px;
-    margin: 0;
-    font-weight: lighter;
+  font-family: 'Allura', cursive;
+  font-size: 30px;
 }
+
 .text-content h1 {
-    font-family: 'Nanum Myeongjo', serif;
-    font-size: 50px;
-    margin: 0;
-    font-weight: lighter;
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 50px;
 }
+
 .text-content h2 {
-    font-family: 'Nanum Myeongjo', serif;
-    font-size: 30px;
-    margin: 25px;
-    font-weight:400;
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 30px;
+  margin: 25px 0;
+  font-weight: 400;
 }
-.text-content h3 {
-    font-family: 'Trirong', serif;
-    font-size: 15px;
-    margin: 25px;
-    font-weight: lighter;
-}
+
+.text-content h3,
 .text-content p {
-    font-family: 'Trirong', serif;
-    font-size: 15px;
-    font-weight: lighter;
-    margin: 10px;
-}
-.home-section {
-    width: 100%;
-    height: 610px;
-
-    /* Gradient + Image combined */
-    background-image: 
-    linear-gradient(rgba(255, 255, 255, 1), rgba(0, 0, 0, 0)),  /* gradient overlay */
-    url('/assets/images/A-Girl-A-Style-_-Were-Married.jpg');    
-
-    background-size:cover;                 /* scales image to cover entire div */
-    background-position: center;            /* centers the image */
-    background-repeat: no-repeat;           /* prevents tiling */
-    color: rgb(0, 0, 0);                           /* optional: for text readability */
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  font-family: 'Trirong', serif;
+  font-size: 15px;
+  margin: 25px 0;
 }
 
-
-/*=== Save The Date ===*/
-.calender {
+/* =====================================
+   SAVE THE DATE SECTION
+===================================== */
+.calendar {
   display: flex;
-  justify-content: center; /* horizontal centering */
-  align-items: center;     /* vertical centering */  
+  justify-content: center;
+  align-items: center;
 }
 
-.calender-img {
+.calendar-img {
   margin-top: 40px;
   text-align: center;
 }
 
-/*=== THE WEDDING ===*/
-
-
-/*=== ITINERARY ===*/
-/*=== WEDDING PARTY ===*/
-/*=== RSVP ===*/
+/* =====================================
+   RSVP BUTTON
+===================================== */
 .btn-RSVP {
   display: inline-block;
+  width: 500px;
   padding: 10px 20px;
+  margin: 10px;
   background-color: transparent;
-  color: rgb(0, 0, 0);
-  border: 2px solid black;
+  color: #000;
+  border: 2px solid #000;
   font-family: 'Trirong', serif;
   cursor: pointer;
   text-align: center;
   user-select: none;
-  margin: 10px;
-  width: 500px;
+  transition: background-color 0.3s ease;
 }
 
 .btn-RSVP:hover {
   background-color: #d0d6dc;
 }
 
-/*=== Footer ===*/
+/* =====================================
+   FOOTER
+===================================== */
 .site-footer {
-    background-color: #222;
-    color: #fff;
-    padding: 1rem 0;
-    font-size: 0.875rem;
-    text-align: center;
-    margin-top: 30px;
-  }
-  .footer-content {
-    max-width: 1200px;
-    padding: 0 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .socials {
-    margin-top: 0.5rem;
-  }
-  .socials a {
-    color: #ccc;
-    margin: 0 0.5rem;
-    text-decoration: none;
-  }
-  .socials a:hover {
-    color: #fff;
-  }
+  background-color: #222;
+  color: #fff;
+  padding: 1rem 0;
+  font-size: 0.875rem;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footer-content {
+  max-width: 1200px;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.socials {
+  margin-top: 0.5rem;
+}
+
+.socials a {
+  color: #ccc;
+  margin: 0 0.5rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.socials a:hover {
+  color: #fff;
+}
