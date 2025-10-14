@@ -3,7 +3,6 @@ A custom wedding website designed for a soon-to-be-married couple. Guests can ac
 
 ## 🎯 Project Description
 This website allows wedding guests to:
-- View a **live countdown** to the wedding date
 - Get details about the **venue, time, and itinerary**
 - Meet the couple’s **wedding entourage**
 - Navigate the site seamlessly on any device
@@ -22,7 +21,6 @@ Built with usability and elegance in mind, the website helps the couple share th
 - Responsive Design Principles
 
 ## 📋 Features
-- ⏳ Real-time countdown clock to the wedding date
 - 📍 Wedding venue & time details
 - 📅 Full itinerary of the day
 - 💕 Introduction to the couple’s entourage
