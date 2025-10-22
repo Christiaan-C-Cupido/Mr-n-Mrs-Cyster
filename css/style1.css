@@ -11,7 +11,7 @@ body {
 }
 
 /* =====================================
-   HOME SECTION
+HOME SECTION
 ===================================== */
 .home-section {
     height: 100vh; /* Full screen height */
@@ -44,7 +44,7 @@ body {
 /* Home content */
 .home-content {
     text-align: center;
-    color: white; /* Ensures text is above overlay */
+    color: rgb(0, 0, 0); /* Ensures text is above overlay */
     position: relative;
     z-index: 2;
     padding: 0 15px;
@@ -112,6 +112,7 @@ body {
         font-size: 14px;
     }
 }
+
 
 
 /* =====================================
