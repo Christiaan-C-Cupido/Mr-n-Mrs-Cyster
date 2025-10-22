@@ -11,7 +11,7 @@ body {
 }
 
 /* =====================================
-    HOME SECTION
+   HOME SECTION
 ===================================== */
 .home-section {
     height: 100vh; /* Full screen height */
@@ -20,17 +20,33 @@ body {
     background-position: center; /* Centers the image */
     background-repeat: no-repeat;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* Centers horizontally */
+    align-items: flex-start; /* Aligns content to the top */
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: white; /* Makes text visible on overlay */
     position: relative;
+    overflow: hidden;
+    padding-top: 15px; /* Space from top */
 }
 
+/* Overlay */
+.home-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.35); /* Soft dark overlay */
+    z-index: 1;
+}
+
+/* Home content */
 .home-content {
     text-align: center;
-    color: #000;
-    border: 0;
+    color: white; /* Ensures text is above overlay */
+    position: relative;
+    z-index: 2;
     padding: 0 15px;
 }
 
@@ -39,11 +55,12 @@ body {
 .home-content h2,
 .home-content h3,
 .home-content p {
-    margin:10px;
+    margin: 10px 0;
     font-weight: lighter;
     line-height: 1.3;
 }
 
+/* Specific text styles */
 .home-content h5 {
     font-family: 'Allura', cursive;
     font-size: 28px;
@@ -66,6 +83,36 @@ body {
     font-family: 'Trirong', serif;
     font-size: 15px;
 }
+
+/* Responsive text for tablets and mobile */
+@media (max-width: 1024px) {
+    .home-content h1 {
+        font-size: 36px;
+    }
+    .home-content h5 {
+        font-size: 24px;
+    }
+    .home-content h2 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 768px) {
+    .home-content h1 {
+        font-size: 28px;
+    }
+    .home-content h5 {
+        font-size: 20px;
+    }
+    .home-content h2 {
+        font-size: 18px;
+    }
+    .home-content h3,
+    .home-content p {
+        font-size: 14px;
+    }
+}
+
 
 /* =====================================
     SAVE THE DATE
