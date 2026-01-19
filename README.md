@@ -4,8 +4,6 @@ A custom wedding website designed for a soon-to-be-married couple. Guests can ac
 ## 🎯 Project Description
 This website allows wedding guests to:
 - Get details about the **venue, time, and itinerary**
-- Meet the couple’s **wedding entourage**
-- Navigate the site seamlessly on any device
 
 Built with usability and elegance in mind, the website helps the couple share their story and plans effortlessly with their loved ones.
 
